@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:template_name",
+ "creation": "2025-08-05 12:20:01.584060",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_8q9o",
+  "amended_from",
+  "id",
+  "display_name",
+  "template_name",
+  "language",
+  "template_type",
+  "column_break_8vxd",
+  "approval_status",
+  "variable_count",
+  "category",
+  "footer",
+  "created_at_utc",
+  "section_break_kbv9",
+  "body_variable",
+  "section_break_cxte",
+  "body_text"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_8q9o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "WhatsApp Template",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "template_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Template Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "template_type",
+   "fieldtype": "Select",
+   "label": "Template Type",
+   "options": "Text\nMedia\nDocument"
+  },
+  {
+   "fieldname": "body_text",
+   "fieldtype": "Small Text",
+   "label": "Body Text"
+  },
+  {
+   "fieldname": "variable_count",
+   "fieldtype": "Int",
+   "label": "Number of Variables"
+  },
+  {
+   "fieldname": "column_break_8vxd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cxte",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Category"
+  },
+  {
+   "fieldname": "language",
+   "fieldtype": "Data",
+   "label": "Language",
+   "reqd": 1
+  },
+  {
+   "fieldname": "footer",
+   "fieldtype": "Data",
+   "label": "Footer"
+  },
+  {
+   "fieldname": "section_break_kbv9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body_variable",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Body Variable",
+   "options": "Body Variable"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "display_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Display Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "approval_status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "created_at_utc",
+   "fieldtype": "Datetime",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Created At"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-07 11:40:52.634123",
+ "modified_by": "Administrator",
+ "module": "Whatsapp Integration",
+ "name": "WhatsApp Template",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

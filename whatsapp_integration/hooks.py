@@ -41,7 +41,22 @@ app_license = "mit"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
-
+doctype_js = {
+    "Sales Order": "public/js/sales_order.js"
+}
+# doc_events = {
+#     "Sales Order": {
+#         "on_submit": "whatsapp_integration.events.sales_order.on_submit_sales_order"
+#     }
+# }
+doc_events = {
+    "*": {
+        "on_update": "whatsapp_integration.events.wp_notification_handler.wp_notification_handler",
+        "on_submit": "whatsapp_integration.events.wp_notification_handler.wp_notification_handler",
+        "after_insert": "whatsapp_integration.events.wp_notification_handler.wp_notification_handler",
+        "on_cancel": "whatsapp_integration.events.wp_notification_handler.wp_notification_handler"
+    }
+}
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}

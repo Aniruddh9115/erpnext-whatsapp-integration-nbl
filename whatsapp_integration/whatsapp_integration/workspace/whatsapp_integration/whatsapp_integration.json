@@ -1,0 +1,61 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"wDdVrCWZ6T\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">WhatsApp Integration</span>\",\"col\":12}},{\"id\":\"pqHp79a5IF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WhatsApp Center\",\"col\":3}},{\"id\":\"R4R13rI_8n\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WhatsApp Template\",\"col\":3}},{\"id\":\"cTscUCTgKM\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WhatsApp Settings NBL\",\"col\":3}},{\"id\":\"-qwx13MtAJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WhatsApp Logs\",\"col\":3}}]",
+ "creation": "2025-08-07 14:26:32.618916",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "small-message",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "WhatsApp Integration",
+ "links": [],
+ "modified": "2025-08-07 15:01:25.945160",
+ "modified_by": "Administrator",
+ "module": "Whatsapp Integration",
+ "name": "WhatsApp Integration",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 40.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "WhatsApp Center",
+   "link_to": "WhatsApp Center",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "WhatsApp Settings NBL",
+   "link_to": "WhatsApp Settings NBL",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "WhatsApp Template",
+   "link_to": "WhatsApp Template",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "WhatsApp Logs",
+   "link_to": "WhatsApp Logs",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "WhatsApp Integration"
+}
