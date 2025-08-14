@@ -50,7 +50,7 @@ doctype_js = {
 #     }
 # }
 doc_events = {
-    "*": {
+    "Sales Order": {
         "on_update": "whatsapp_integration.events.wp_notification_handler.wp_notification_handler",
         "on_submit": "whatsapp_integration.events.wp_notification_handler.wp_notification_handler",
         "after_insert": "whatsapp_integration.events.wp_notification_handler.wp_notification_handler",
